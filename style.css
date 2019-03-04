@@ -45,6 +45,19 @@ body{
     border-style: none;
     padding: 5px 10px;
     background-color: white;
+    border-radius: 4px;
+}
+
+.sign-up__button:focus{
+    outline: none;
+    background-color: #aee5f9;
+    color: #4fd0ff;
+}
+
+.log-in__button:focus{
+    outline: none;
+    background-color: #aee5f9;
+    color: #d8f4ff;
 }
 
 .header__content{
@@ -122,10 +135,12 @@ header{
 }
 
 @media screen and (min-width: 1440px){
-    .header__logo__wrapper {
-        width: 15%;
-    }
     .header__content{
         height: 100px;
+    }
+
+    .header__content{
+        width: 70%;
+        margin: auto;
     }
 }
