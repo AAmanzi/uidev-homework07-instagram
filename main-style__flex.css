@@ -100,15 +100,6 @@
     display: none;
 }
 
-.posts__row{
-    display: inline-block;
-    width: calc(33% - 2.5px);
-}
-
-.posts__row--middle{
-    margin: 0 1px;
-}
-
 .post__img{
     position: absolute;
     height: 100%;
@@ -119,9 +110,15 @@
 
 .post__img__wrapper{
     position: relative;
-    width: 100%;
-    padding-top: 100%;
-    margin-bottom: 5px;
+    width: 32.5%;
+    padding-top: 32.5%;
+    margin-bottom: 4px;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px){
@@ -209,6 +206,8 @@
 
     .post__img__wrapper{
         margin-bottom: 25px;
+        width: 31%;
+        padding-top: 31%;
     }
 
     .posts{
@@ -239,7 +238,7 @@
     }
 
     .post__img__wrapper{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
