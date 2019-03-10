@@ -73,6 +73,10 @@ header{
 }
 
 @media screen and (min-width: 768px){
+    .logo{
+        margin-left: 20px;
+    }
+
     .searchbox{
         display: flex;
         align-items: center;
@@ -112,9 +116,12 @@ header{
         max-width: 100%;
     }
 
-    .header__logo__wrapper{
-        justify-content: space-around;
-        width: 25%;
+    .header__content{
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .header__buttons{
+        margin-left: 100px;
     }
 }
 
