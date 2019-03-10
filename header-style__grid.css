@@ -126,8 +126,12 @@ header{
 }
 
 @media screen and (min-width: 1024px){
-    .header__logo__wrapper {
-        width: 17.5%;
+    .logo {
+        margin-left: 40px;
+    }
+
+    .header__buttons {
+        margin-left: 150px;
     }
 }
 
