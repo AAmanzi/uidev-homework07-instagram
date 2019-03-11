@@ -156,9 +156,7 @@ a{
 
     .title__wrapper--alt {
         height: 50px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: block;
         width: 90%;
         margin: auto;
         margin-top: 10px;
@@ -167,23 +165,22 @@ a{
     }
 
     .modal__wrapper{
-        display: flex;
         width: 90%;
-        margin: auto;
+        border: 0.5px solid #999;
+        display: inline-block;
+        margin-left: 5%;
     }
 
     .selected__img__wrapper{
         width: 55%;
+        float: left;
     }
 
     .selected__img__description {
         width: 45%;
+        float: left;
         line-height: 20px;
         background-color: white;
-    }
-
-    .modal__wrapper{
-        border: 0.5px solid #999;
     }
 
     .selected__img__ratio{
@@ -219,11 +216,9 @@ a{
     }
 
     .options--alt{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: inline-block;
         width: 90%;
-        margin: auto;
+        margin-left: 5%;
     }
     
     .options{
@@ -245,17 +240,18 @@ a{
         height: 50%;
         margin-top: 10px;
         font-size: 20px;
+        float: right;
     }
 
-    .comment__add{
-        display: flex;
-        justify-content: space-between;
+    .comment__add {
+        display: inline-block;
         width: 90%;
-        margin: auto;
+        margin-left: 5%;
         border-top: 0.5px solid #999;
     }
 
     .log-in{
+        float: left;
         font-size: 14px;
         font-weight: 400;
         padding: 20px 0;
