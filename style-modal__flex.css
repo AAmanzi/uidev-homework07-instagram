@@ -264,3 +264,13 @@ a{
         margin-top: 15px;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .modal__wrapper{
+        width: 65%;
+    }
+    
+    .selected__img__ratio {
+        margin-top: 12.5px;
+    }
+}
