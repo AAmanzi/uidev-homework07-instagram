@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.profile__title__wrapper {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.title__wrapper--alt{
+    display: none;
+}
+
+.profile__picture__wrapper{
+    width: 30px;
+}
+
+.profile__picture__ratio{
+    position: relative;
+    padding-top: 100%;
+}
+
+.profile__picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+
+.more{
+    font-size: 20px;
+}
+
+.more--alt{
+    display: none;
+}
+
+h2{
+    font-size: 14px;
+    display: inline-block;
+}
+
+.button--alt{
+    color: #3897f0;
+    border-style: none;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.selected__img__ratio{
+    position: relative;
+    padding-top: 66.666666%;
+}
+
+.selected__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options--alt{
+    display: none;
+    border-top: 0.5px solid #999;
+}
+
+.option__img{
+    margin: 5px;
+}
+
+.selected__img__description{
+    width: 90%;
+    margin: auto;
+    line-height: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #003569;
+}
+
+.description__likes, .description__likes--alt, .description, .comments{
+    margin-bottom: 5px;
+}
+
+.description__likes{
+    display: block;
+}
+
+.description__likes--alt{
+    display: none;
+}
+
+.selected__date{
+    font-size: 10px;
+    color: #999;
+}
+
+.description, .comment__item{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comment__add{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: #f9f9f9;
+    }
+
+    .title__wrapper{
+        display: none;
+    }
+
+    .title__wrapper--alt {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 0.5px solid #999;
+    }
+
+    .modal__wrapper{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    .selected__img__wrapper{
+        width: 55%;
+    }
+
+    .selected__img__description {
+        width: 45%;
+        line-height: 20px;
+        background-color: white;
+    }
+
+    .modal__wrapper{
+        border: 0.5px solid #999;
+    }
+
+    .selected__img__ratio{
+        margin-top: 85px;
+    }
+
+    .profile__picture__wrapper {
+        width: 40px;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .profile__title__wrapper{
+        width: 60%;
+    }
+
+    .options, .description__likes{
+        display: none;
+    }
+
+    .description, .comments, .selected__date{
+        width: 90%;
+        margin: auto;
+    }
+
+    .yesterday{
+        margin-top: 10px;
+        display: inline-block;
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .options--alt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .options{
+        display: none;
+    }
+
+    .description__likes{
+        display: none;
+    }
+    
+    .description__likes--alt{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .more--alt{
+        display: inline-block;
+        height: 50%;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .comment__add{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        border-top: 0.5px solid #999;
+    }
+
+    .log-in{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 20px 0;
+        color: #999;
+    }
+}
