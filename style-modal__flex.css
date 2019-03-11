@@ -250,3 +250,17 @@ a{
         color: #999;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .selected__img__wrapper {
+        width: 65%;
+    }
+
+    .selected__img__description{
+        width: 35%;
+    }
+
+    .selected__img__ratio {
+        margin-top: 15px;
+    }
+}
