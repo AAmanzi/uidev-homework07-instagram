@@ -24,7 +24,7 @@
 
 .header__buttons{
     font-size: 14px;
-    margin-top: 7%;
+    margin-top: 25px;
     margin-left: 10%;
     float: left;
 }
@@ -64,7 +64,7 @@
 
 .header__logo__wrapper{
     float: left;
-    margin-top: 5%;
+    margin-top: 20px;
     width: 50%;
 }
 
@@ -76,6 +76,7 @@ header{
 
 @media screen and (min-width: 768px){
     .searchbox{
+        float: left;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -86,6 +87,9 @@ header{
         padding: 2px 10px 2px 10px;
         width: 215px;
         background-color: #f9f9f9;
+        margin-top: 25px;
+        margin-left: 5%;
+        
     }
 
     .searchbox__magnifier{
@@ -118,12 +122,24 @@ header{
         justify-content: space-around;
         width: 25%;
     }
+
+    .header__buttons{
+        margin-left: 15%;
+    }
 }
 
 @media screen and (min-width: 1024px){
     .header__logo__wrapper {
         width: 17.5%;
+        margin-left: 30px;
     }
+    .searchbox{
+        margin-left: 15%;
+    }
+
+    .header__buttons {
+        margin-left: 20%;
+    }    
 }
 
 @media screen and (min-width: 1440px){
@@ -135,4 +151,7 @@ header{
         width: 70%;
         margin: auto;
     }
+    .header__buttons {
+        margin-left: 25%;
+    }    
 }

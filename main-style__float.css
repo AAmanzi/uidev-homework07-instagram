@@ -186,13 +186,14 @@
     }
 
     .profile__picture__wrapper{
-        margin: 25px;
+        margin: 14px;
     }
 
     .view__type{
         padding-top: 10px;
-        border-top: solid 1px lightgrey;
         justify-content: center;
+        display: block;
+        margin-left: 175px;
     }
 
     .view__img{
@@ -203,7 +204,7 @@
     .view__img__wrapper{
         display: flex;
         align-items: center;
-        padding: 7.5px 30px;
+        padding: 7.5px 0;
     }
 
     .view__img__text{
@@ -218,9 +219,7 @@
     }
 
     .post__img__wrapper{
-        margin-bottom: 15px;
-        width: 31%;
-        padding-top: 31%;
+        margin-bottom: 5px;
     }
 
     .posts{
@@ -248,6 +247,12 @@
 
     .posts__row--middle{
         margin: 0 41px;
+    }
+    .view__type{
+        margin-left: 300px;
+    }
+    .profile__picture__wrapper{
+        margin: 25px;
     }
 }
 
