@@ -85,7 +85,6 @@ h2{
 }  
 
 .options{
-    display: inline-block;
     width: 100%;
     display: grid;
     grid-template-columns: 8fr 1fr;
@@ -94,12 +93,6 @@ h2{
 .options--alt{
     display: none;
     border-top: 0.5px solid #999;
-}
-
-.main__options{
-}
-
-.option__bookmark{
 }
 
 .option__img{
@@ -169,16 +162,13 @@ a{
     .modal__wrapper{
         width: 90%;
         border: 0.5px solid #999;
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 55% 45%;
         margin-left: 5%;
     }
 
-    .selected__img__wrapper{
-        width: 55%;
-    }
-
     .selected__img__description {
-        width: 45%;
+        width: 100%;
         line-height: 20px;
         background-color: white;
     }
@@ -216,7 +206,8 @@ a{
     }
 
     .options--alt{
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 8fr 1fr;
         width: 90%;
         margin-left: 5%;
     }
@@ -243,7 +234,8 @@ a{
     }
 
     .comment__add {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 8fr 1fr;
         width: 90%;
         margin-left: 5%;
         border-top: 0.5px solid #999;
@@ -258,16 +250,8 @@ a{
 }
 
 @media screen and (min-width: 1024px){
-    .selected__img__wrapper {
-        width: 65%;
-    }
-
-    .selected__img__description{
-        width: 35%;
-    }
-
     .selected__img__ratio {
-        margin-top: 15px;
+        margin-top: 45px;
     }
 }
 
@@ -278,6 +262,6 @@ a{
     }
     
     .selected__img__ratio {
-        margin-top: 12.5px;
+        margin-top: 42.5px;
     }
 }
