@@ -276,6 +276,7 @@ a{
 @media screen and (min-width: 1440px){
     .modal__wrapper{
         width: 65%;
+        margin-left: 17.5%;
     }
     
     .selected__img__ratio {
